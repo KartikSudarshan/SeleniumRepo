@@ -1,0 +1,72 @@
+# Selenium
+Created Sunday 02 September 2018
+
+**Source**: Lynda.com
+**Instructor**: Meaghan Lewis
+
+**Source:** <http://seleniuhq.org>
+Selenium is a powerful framework for testing web apps and the UI
+
+Requirements:
+-------------
+
+* Knowledge on navigation in command line
+* Familiarity with HTML & Web Elements
+
+
+### Applications to Download:
+
+* **Ruby: **Ruby is used to write the test code & no prior knowledge of ruby required 
+* **Internet Browser:** Firefox 
+* **Text Editor:** Sublime text (but I choose atom)
+
+
+Ruby is used to write the test code & no prior knowledge of ruby required
+
+Selenium overview:
+------------------
+
+* Created by Jason Huggins while he worked at ThoughtWorks. Huggins was working on an internal time expense application and needed to make sure that the app was always working
+* **Goal:** save time manually testing
+
+
+### Selenium version 1
+The API backing the first version of Selenium was called Selenium RC (Remote Control)
+Selenium RC used a proxy server that injected JavaScript into a browser in order to control it and drive the interactions
+In 2006 Simon stuart created WebDriver which solved some of Selenium RC's pain points by not relying on intrusive JavaScript injection
+to drive the interactions through a browser
+
+### Selenium 2.0
+Instead a client is provided for each browser, each client had its own API and allowed native calls to be made directly to the browser
+Then in 2009 Selenium & Webdriver were merged ⇒ Selenium 2.0. This version supported the RC and Webdriver APIs but users were encouraged to use the webdrivers only
+
+### Selenium 3.0
+In 2016, Selenium 3.0 was introduced which lost support for RC so it is only backed by webdriver API. Also now browser vendors are responsible to manage their own drivers. A new W3C specification is introduced for browser automation based on the open source web driver thus there are standards and guidelines for the API
+
+#### Major Supprt
+
+* All programming languages
+* Platforms and browsers
+* A variety of testing tools 
+* Compatibility with other fraeworks and applications
+* Opensource with strong community
+
+
+
+### Tools Needed for writing tests
+
+1. Selenium Webdriver
+2. geckodriver (make sure the executable in the system PATH)
+3. rspec (ruby gem to add assertions)
+
+
+##### Note:
+
+* Gems are independent software packages (library/plug in)
+* RubyGems is the package management framework
+* Each Gem needs to be installed before using it, can be installed via gem install (present with ruby install) or bundler (needs gemfile, good for share Project)
+
+
+
+Python PyPi: <https://pypi.org/project/selenium/>
+
